@@ -1,0 +1,31 @@
+*,
+::after
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+
+background-color: darkgrey;
+}
+.row2{
+  gap: 1%;
+ 
+    
+}
+.container{
+    padding-left: 15%;
+    padding-top: 20%;
+}
+
+.row2 button, 
+.row3 button, 
+.row4 button, 
+.row5 button,
+.row6 button {
+    padding: 1em 2em;
+}
+
+
