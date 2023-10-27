@@ -1,31 +1,66 @@
-*,
-::after
-::before{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
-body{
 
-background-color: darkgrey;
-}
-.row2{
-  gap: 1%;
- 
-    
+body{
+    background-color: rgb(214, 214, 214);
 }
 .container{
-    padding-left: 15%;
-    padding-top: 20%;
+    margin: 160px 0 0; 
 }
 
-.row2 button, 
-.row3 button, 
-.row4 button, 
-.row5 button,
-.row6 button {
-    padding: 1em 2em;
+.row{
+    width: 100%;
+    height: 60px;
+}
+.two,.three,.four.five.six{
+    margin: 10px 0 0 0;
+}
+button{
+    color: white;
+    width: 55px;
+    height:55px ;
+    border: none;
+    background: rgb(8, 8, 8);
+    box-shadow: 5px 5px 10px #0a0a0a,-5px -5px 10px #858383;
+    font-size: 20px;
+    margin-left: 5px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20%;
+   
 }
 
+button:active{
+ box-shadow: 1px 1px 2px #858383, -1px -1px 2px #0a0a0a;
+}
+.back{
+    width: 115px;
+    border-radius: 10px;
+}
+.tab{
+width: 85px;
+border-radius: 10px;
+}
 
+.slace{
+    width: 85px ;
+    border-radius: 10px;
+}
+.cap{
+    width: 100px ;
+    border-radius: 10px;
+}
+.ent-btn{
+    width: 135px ;
+    border-radius: 10px;
+}
+.shift{
+    width: 150px ;
+    border-radius: 10px;
+}
+.option{
+    width: 82px ;
+    border-radius: 10px;
+}
+.space{
+    width: 400px ;
+    border-radius: 10px;
+}
